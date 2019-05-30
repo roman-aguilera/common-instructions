@@ -30,3 +30,7 @@ List out all packages that have a specified keyword
 pip freeze | grep <keyword>
 ```
 
+## view the contents in a file 
+```
+cat <filename>
+```
