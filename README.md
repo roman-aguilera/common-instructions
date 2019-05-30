@@ -20,8 +20,13 @@ pip install -e .
 ```
 
 ## View the Packages installed in your pip
+View list of packages installed
 ```
 pip freeze
 ```
 
+List out all packages that have a specified keyword
+```
+pip freeze | grep <keyword>
+```
 
