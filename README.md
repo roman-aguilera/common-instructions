@@ -37,13 +37,13 @@ cat <filename>
 
 ## Having commands automatically run when a terminal pos up
 Go to your bash file. this should e found in your home directoory and is named .bashrc
-'''
+```
 cd ~
 vim .bashrc
-'''
+```
 
 Scroll to the very end of the .bashrc file and paste the following on the final line
-'''
+```
 export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so
-'''
+```
 Now the this will run every time you open up a command line terminnal
