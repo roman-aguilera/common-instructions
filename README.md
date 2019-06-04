@@ -48,7 +48,7 @@ export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so
 ```
 Now the this will run every time you open up a command line terminnal
 
-##ROS commands
+## ROS commands
 If you ever obtain the error "ERROR: Unable to communicate with master!", you need to open up a separate terminal and run:
 ```
 roscore
