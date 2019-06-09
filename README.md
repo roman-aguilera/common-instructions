@@ -9,7 +9,7 @@ Find the package you want to install online
 git clone <github URL>
 ```
 
-Go to the directory of the package you want to install
+## Go to the directory of the package you want to install
 ```
 cd <folder of packages you just downloaded with git>
 ```
