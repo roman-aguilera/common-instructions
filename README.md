@@ -32,9 +32,9 @@ pip freeze | grep <keyword>
 
 ## Look for specific term
 This looks for a term in all the files contained within your current directory. If you want to specify a directory that is not the current directory, replace the '.' at the end with a directory.
-'''
+```
 grep -r 'YOUR_SEARCH_TERM' .
-'''
+```
 
 
 
