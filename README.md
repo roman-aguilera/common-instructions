@@ -36,7 +36,11 @@ This looks for a term in all the files contained within your current directory. 
 grep -r 'YOUR_SEARCH_TERM' .
 ```
 
-
+## Look for a specific file
+This looks for a files contained within your current directory and sub-directories. If you want to specify a directory that is not the current directory, replace the '.' at the end with a directory.
+```
+find . -name testfile.txt
+```
 
 ## View the contents in a file 
 ```
