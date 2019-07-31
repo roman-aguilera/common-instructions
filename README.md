@@ -47,6 +47,22 @@ find . -name testfile.txt
 cat <filename>
 ```
 
+## SCP (Copying and pasting files between a local and remote machine)
+Copy the file "foobar.txt" from a remote host to the local host
+```
+scp your_username@remotehost.edu:foobar.txt /some/local/directory
+```
+
+Copy the file "foobar.txt" from the local host to a remote host
+```
+scp foobar.txt your_username@remotehost.edu:/some/remote/directory
+```
+
+Other scp commands (for entire directories and other intricacies) can be found at this website
+```
+http://www.hypexr.org/linux_scp_help.php
+```
+
 ## Having commands automatically run when a terminal pop up
 Go to your bash file. this should e found in your home directoory and is named .bashrc
 ```
