@@ -1,6 +1,32 @@
 # Common Commands/Instructions that I usually need to reference
 Instead of having to google common commands, I am putting them here for faster reference anything inside of the < > symbols os to be changed by the user for their specific use case
 
+## Vim (i.e. a universal editor for most file types)
+
+```
+vim <filename.filetype>  # enter the file named `bashrc` for editing (creates a new file if it doesn't already exist)
+```
+Press `ESC` to exit any mode.
+
+Type `i` to go into editing mode.
+
+Highlighting text: To highlight text, ensure you first exit any mode that you are currently in by pressing `ESC`. Highlight a text by holding `CNTRL` and clicking on the terminal once (maybe need to click twice)
+
+Copy by pressing `CNTRL+C`
+
+Paste by pressing `CNTRL+v`
+
+```
+cd <path/to/directory> # makes the terminal start from a desired path
+export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so # any process within a new shell now associates `LD_PRELOAD` with `/usr/lib/x86_64-linux-gnu/libGLEW.so`
+```
+
+Press `Esc` to exit editable mode
+Saving changes: Press`Esc`. Type `:w` to save any changes you made to the file
+Exit a file: Press `Esc`. Type `:q` to exit the file (Type `:q!` to force exit the file if vim is not playing nice)
+
+Indenting multiple lines. Type `v` to got into hilight mode. Move the hightlight with arrows. indent lines that are highlightes (google "vim indent multiple lines"), 
+
 ## Git
 ### Copying someones elses folder (repository)
 Find the package you want to install online
@@ -112,7 +138,7 @@ Other scp commands (for entire directories and other intricacies) can be found a
 http://www.hypexr.org/linux_scp_help.php
 ```
 
-## Making command line commands automatically run when a new terminal pops up
+## Getting desired command-line commands to automatically run when you start a new terminal
 Go to your bash file. this should be found in your home directoory and is named `.bashrc`
 ```
 cd ~ # go to your home directory
@@ -131,7 +157,7 @@ Type `:w` to save the changes, Type `:q` to exit the file, Type `:q!` to exit th
 
 Now the these commands will run every time you open up a new command-line terminnal
 
-## ROS commands
+## ROS
 If you ever obtain the error "ERROR: Unable to communicate with master!", you need to open up a separate terminal and run:
 ```
 roscore
