@@ -5,13 +5,13 @@ Instead of having to google common commands, I am putting them here for faster r
 ### Copying someones elses folder (repository)
 Find the package you want to install online
 
-clone github repository
+Cloning(copying) a github repository
 ```
 #fork to your own gihub repository first (you cant commit changes to someon else repository unless)
 git clone <github URL> # github URL must come from your personal github repository
 ```
 
-Saving changes to your local repository to your github repository
+Saving changes from your local repository to your github repository
 ```
 git status
 git pull
