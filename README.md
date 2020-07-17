@@ -45,10 +45,9 @@ Indenting multiple lines. Type `v` to go into hilight mode. Move the hightlight 
 ## Git
 ### Downloading someones elses git repository (i.e. online folder of their code) into your machine 
 Find the Github repository you want to copy
-Fork their repository into your github repository (This places a copy of their code into your github. This is important) (Google "how to fork a repository")
+Fork (copy) their repository into your github repository. This places a copy of their code into your Github profile which you now have full control over! (This is important becuase you cant commit changes to someone else repository unless they give you permission) (Google "how to fork a repository")
 Go to your github, copy the gihub URL of your copy of their repository (URL should end in .git)
 ```
-#fork to your own gihub repository first (you cant commit changes to someon else repository unless)
 git clone <github URL> # github URL must come from your personal github repository (the URL can be pasted by pressing `CNTRL+V`)
 ```
 
