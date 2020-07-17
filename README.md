@@ -13,7 +13,7 @@ ls #list all sub-directories (i.e. sub-folders) in you current directory
 cd <directory> #go into a sub-diretory (i.e. sub-folder) that is within your current working directory
 cd .. # go up one directory level
 cd   # go to your home directory
-cd <home/user/path/to/directory> # go to a specific directory
+cd </home/user/path/to/directory> # go to a specific directory that is not in the saem path as your current working directory
 
 mkdir <foldername> # create a new sub-directory from your current working directory
 rm <foldername> #delete a sub-directory from your current working directory
