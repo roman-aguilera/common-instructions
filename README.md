@@ -1,6 +1,8 @@
 # Common Commands/Instructions that I usually need to reference
 Instead of having to google common commands, I am putting them here for faster reference. Anything inside of the `<` `>` symbols is to be changed by the user for their specific use case. The actual typed commands themselves should NOT include the `<` `>` symbols.
 
+Anyhhing to the right of a `#` is a comment.
+
 ## Installing Ubuntu
 
 ## Command-Line (For linux)
