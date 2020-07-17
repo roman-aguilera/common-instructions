@@ -49,53 +49,51 @@ importlib.reload(previously_imported_module) # update a module within the python
 
 ```
 
-#### Package Management
-### Installing a python module (i.e. software package) from source (source lets you modify the module)
+### Package Management
+#### Installing a python module (i.e. software package) from source (source lets you modify the module)
 
 ```
+#fork a repository first (google "how to fork a git repository")
+
 cd <path/to/directory> #Go to the directory to where you want the package installed
 
-git clone<>
+git clone <github URL> #make sure you forked the repository first
 
-cd <folder of packages you just downloaded with git> 
-```
+ls #checks the contents of your current directory
 
-```
-ls #check the content of your curretn directory
-```
+#check if the repository name is shown
 
-Install the package using pip
-```
-pip install -e .
+cd <name_of_folder_that_was_cloned> # go into folder you just downloaded
+
+pip install -e . # Install the package using pip
 ```
 
-## View the Packages installed in your pip
-View list of packages installed
+## Checking which python modules (software packages) are installed in your current python environment
+
 ```
-pip freeze
+pip freeze # show list of installed packages
+
+pip freeze | grep 'keyword' #List out all packages that have a specified keyword within their name
+```
+## Searching within your current directory
+### Searching for a specific term in your directory
+
+```
+grep -r 'YOUR_SEARCH_TERM' .  # search all files (within your current directory and all sub-directories in it) for words that contain 'YOUR_SEARCH_TERM'
+grep -r 'YOUR_SEARCH_TERM' </path/to/directory>  # search all files (within your </path/to/directory> directory and all sub-directories in it) for words that contain 'YOUR_SEARCH_TERM'
 ```
 
-List out all packages that have a specified keyword
+### Seaching for a specific file in your current directory
+
 ```
-pip freeze | grep <keyword>
-```
-## Search within your current directory
-### Looking for specific term in your directory
-This looks for a term in all the files contained within your current directory. If you want to specify a directory that is not the current directory, replace the '.' at the end with a directory.
-```
-grep -r 'YOUR_SEARCH_TERM' .
+find . -name testfile.txt #looks for any files named `testfile.txt` that are contained within your current directory and its sub-directories
+find </path/to/directory> -name testfile.txt #looks for any files named `testfile.txt` that are contained within </path/to/directory> directory and its sub-directories
 ```
 
-## Looking for a specific file in your current directory
-This looks for a files contained within your current directory and sub-directories. If you want to specify a directory that is not the current directory, replace the '.' at the end with a directory.
+## View the contents of a file 
 ```
-find . -name testfile.txt
-```
-
-## View the contents in a file 
-```
-vim <filename> # one way
-cat <filename> #another way
+vim <filename.filetype> # one way
+cat <filename.filetype> #another way
 ```
 
 ## Copying and pasting files between a local and remote machine)
