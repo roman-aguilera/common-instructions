@@ -119,12 +119,17 @@ cd ~ # go to your home directory
 vim .bashrc  # enter the file named `bashrc` for editing (creates a new file if it doesn't already exist)
 ```
 
-Scroll to the very end of the .bashrc file and paste the following into the final line of the `.bashrc` file
+Scroll to the very end of the .bashrc file 
+Type `i` to be able to edit the file.
+Copy and Paste the following (example lines) into the final line of the `.bashrc` file (to paste, use `cntrl+v`)
 ```
 cd <path/to/directory> # makes the terminal start from a desired path
 export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so # any process within a new shell now associates `LD_PRELOAD` with `/usr/lib/x86_64-linux-gnu/libGLEW.so`
 ```
-Now the this will run every time you open up a command line terminnal
+Press `Esc` to exit editable mode
+Type `:w` to save the changes, Type `:q` to exit the file, Type `:q!` to exit the file if vim is not playing nice
+
+Now the these commands will run every time you open up a new command-line terminnal
 
 ## ROS commands
 If you ever obtain the error "ERROR: Unable to communicate with master!", you need to open up a separate terminal and run:
