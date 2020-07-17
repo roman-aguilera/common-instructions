@@ -90,13 +90,13 @@ find . -name testfile.txt #looks for any files named `testfile.txt` that are con
 find </path/to/directory> -name testfile.txt #looks for any files named `testfile.txt` that are contained within </path/to/directory> directory and its sub-directories
 ```
 
-## View the contents of a file 
+## Viewing the contents of a file 
 ```
 vim <filename.filetype> # one way
 cat <filename.filetype> #another way
 ```
 
-## Copying and pasting files between a local and remote machine)
+## Transferring files between a local and remote machine)
 Copying the file "foobar.txt" from a remote host to the local host
 ```
 scp your_username@remotehost.edu:foobar.txt /some/local/directory
