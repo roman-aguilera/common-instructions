@@ -1,5 +1,5 @@
 # Common Commands/Instructions that I usually need to reference
-Instead of having to google common commands, I am putting them here for faster reference anything inside of the < > symbols os to be changed by the user for their specific use case
+Instead of having to google common commands, I am putting them here for faster reference. Anything inside of the `<` `>` symbols is to be changed by the user for their specific use case. The actual typed command themselves should not include the `<` `>`.
 
 ## Installing Ubuntu
 
