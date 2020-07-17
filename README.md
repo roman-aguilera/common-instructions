@@ -20,6 +20,38 @@ git stash
 git push
 ```
 
+## Python
+### Itnerpreter
+To update python module within a live interpreter
+```
+sdfsdf
+```
+
+### Gym
+```
+import gym
+import pybullet_envs
+env_instance = gym.make('OctopusArm2DBulletEnv-v0', render=True)
+
+```
+
+### Debugging
+#commands```
+import os 
+os.join("path/to/","directory/of/file.filetype") #joins two srtings to form one string a directory path
+
+import inspect 
+inspect.getfile(class_instance.__class__) #returns directory path to file, where the class is defined
+
+#magic methods
+print(class_instance.method.__doc__) #returns documentation for how to use method
+
+import importlib
+importlib.reload(previously_imported_module) # update a module within the python interpreter #https://stackoverflow.com/questions/684171/how-to-re-import-an-updated-package-while-in-python-interpreter
+
+```
+
+
 ## Go to the directory of the package you want to install
 ```
 cd <folder of packages you just downloaded with git>
