@@ -24,7 +24,7 @@ Press the `UP` or `DOWN` arrows to automatically retype a previously typed comma
 ## Vim (i.e. a universal editor for most file types)
 
 ```
-vim <filename.filetype>  # enter the file named `filename.filetype` (creates a new file if it doesn't already exist)
+vim <filename.filetype>  # essentially you are entering the file named `filename.filetype` to view its contents. It creates a new file named `filename.filetype` if a file of that name doesn't already exist)
 ```
 Press `ESC` to exit any mode. (Typing this an indefinite amount of times does no harm)
 
