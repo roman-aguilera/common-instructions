@@ -1,4 +1,4 @@
-# common-instructions
+# Common Commands/Instructions that I usually need to reference
 Instead of having to google common commands, I am putting them here for faster reference anything inside of the < > symbols os to be changed by the user for their specific use case
 
 ## Git
@@ -23,13 +23,9 @@ git push
 ```
 
 ## Python
-### Itnerpreter
-To update python module within a live interpreter
-```
-sdfsdf
-```
+### Interpreter
 
-### Gym
+#### Gym
 ```
 import gym
 import pybullet_envs
@@ -37,8 +33,8 @@ env_instance = gym.make('OctopusArm2DBulletEnv-v0', render=True)
 
 ```
 
-### Debugging
-#commands```
+#### Debugging
+```
 import os 
 os.join("path/to/","directory/of/file.filetype") #joins two srtings to form one string a directory path
 
@@ -53,10 +49,19 @@ importlib.reload(previously_imported_module) # update a module within the python
 
 ```
 
+#### Package Management
+### Installing a python module (i.e. software package) from source (source lets you modify the module)
 
-## Go to the directory of the package you want to install
 ```
-cd <folder of packages you just downloaded with git>
+cd <path/to/directory> #Go to the directory to where you want the package installed
+
+git clone<>
+
+cd <folder of packages you just downloaded with git> 
+```
+
+```
+ls #check the content of your curretn directory
 ```
 
 Install the package using pip
@@ -74,14 +79,14 @@ List out all packages that have a specified keyword
 ```
 pip freeze | grep <keyword>
 ```
-
-## Look for specific term
+## Search within your current directory
+### Looking for specific term in your directory
 This looks for a term in all the files contained within your current directory. If you want to specify a directory that is not the current directory, replace the '.' at the end with a directory.
 ```
 grep -r 'YOUR_SEARCH_TERM' .
 ```
 
-## Look for a specific file
+## Looking for a specific file in your current directory
 This looks for a files contained within your current directory and sub-directories. If you want to specify a directory that is not the current directory, replace the '.' at the end with a directory.
 ```
 find . -name testfile.txt
@@ -89,16 +94,17 @@ find . -name testfile.txt
 
 ## View the contents in a file 
 ```
-cat <filename>
+vim <filename> # one way
+cat <filename> #another way
 ```
 
-## SCP (Copying and pasting files between a local and remote machine)
-Copy the file "foobar.txt" from a remote host to the local host
+## Copying and pasting files between a local and remote machine)
+Copying the file "foobar.txt" from a remote host to the local host
 ```
 scp your_username@remotehost.edu:foobar.txt /some/local/directory
 ```
 
-Copy the file "foobar.txt" from the local host to a remote host
+Copying the file "foobar.txt" from the local host to a remote host
 ```
 scp foobar.txt your_username@remotehost.edu:/some/remote/directory
 ```
@@ -108,16 +114,17 @@ Other scp commands (for entire directories and other intricacies) can be found a
 http://www.hypexr.org/linux_scp_help.php
 ```
 
-## Having commands automatically run when a terminal pop up
-Go to your bash file. this should e found in your home directoory and is named .bashrc
+## Making command line commands automatically run when a new terminal pops up
+Go to your bash file. this should be found in your home directoory and is named `.bashrc`
 ```
-cd ~
-vim .bashrc
+cd ~ # go to your home directory
+vim .bashrc  # enter the file named `bashrc` for editing (creates a new file if it doesn't already exist)
 ```
 
-Scroll to the very end of the .bashrc file and paste the following on the final line
+Scroll to the very end of the .bashrc file and paste the following into the final line of the `.bashrc` file
 ```
-export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so
+cd <path/to/directory> # makes the terminal start from a desired path
+export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so # any process within a new shell now associates `LD_PRELOAD` with `/usr/lib/x86_64-linux-gnu/libGLEW.so`
 ```
 Now the this will run every time you open up a command line terminnal
 
