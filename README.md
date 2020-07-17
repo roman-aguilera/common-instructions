@@ -64,7 +64,12 @@ git push
 ```
 
 ## Python
-### Interpreter
+#### Interpreter
+```
+python # starts python interpreter (Interpreters check for errors and execute code on a line by line basis. Compilers check entire code for errors first line-by-line, then they execute the entire code line-by-line)
+
+python pythonfile.py #executes an already existing python file that is found inside your current working directory 
+```
 
 #### Gym
 ```
