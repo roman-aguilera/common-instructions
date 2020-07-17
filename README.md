@@ -82,6 +82,9 @@ env_instance = gym.make('OctopusArm2DBulletEnv-v0', render=True)
 
 #### Debugging
 ```
+import pdb
+pdb.set_trace() #sets pause and goes into debug mode. Commands that navigate this are `n` (next line), `s` (step  one level deeper until next function call), there are other commands that I don't know off the top of my head.
+
 import os 
 os.join("path/to/","directory/of/file.filetype") #joins two srtings to form one string a directory path
 
