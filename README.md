@@ -17,6 +17,7 @@ cd </home/user/path/to/directory> # go to a specific directory that is not in th
 
 mkdir <foldername> # create a new sub-directory from your current working directory
 rm <foldername> #delete a sub-directory from your current working directory
+rm <filename.filetype> #delete a file named 'filename.filetype' from your current working directory
 ```
 Press the `UP` or `DOWN` arrows to automatically retype a previously typed command.
 
