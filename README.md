@@ -1,12 +1,31 @@
 # Common Commands/Instructions that I usually need to reference
 Instead of having to google common commands, I am putting them here for faster reference anything inside of the < > symbols os to be changed by the user for their specific use case
 
+## Installing Ubuntu
+
+## Command-Line (For linux)
+Entering the terminal (i.e. command-line, i.e. shell): Press the `HOME` button on your keyboard. Type in `cmd`. Click on `Terminal`. The directory (folder) that you are currently in should be displayed in txt on the leftmost side.
+
+Navigating through the command line: the following commands let you change the directory (aka folder aka filepath) that you are currently in. This is called the "current working directory"
+```
+pwd #print current working directory
+ls #list all sub-directories (i.e. sub-folders) in you current directory
+cd <directory> #go into a sub-diretory (i.e. sub-folder) that is within your current working directory
+cd .. # go up one directory level
+cd   # go to your home directory
+cd <home/user/path/to/directory> # go to a specific directory
+
+mkdir <foldername> # create a new sub-directory from your current working directory
+rm <foldername> #delete a sub-directory from your current working directory
+```
+Press the `UP` or `DOWN` arrows to automatically retype a previously typed command.
+
 ## Vim (i.e. a universal editor for most file types)
 
 ```
-vim <filename.filetype>  # enter the file named `bashrc` for editing (creates a new file if it doesn't already exist)
+vim <filename.filetype>  # enter the file named `filename.filetype` (creates a new file if it doesn't already exist)
 ```
-Press `ESC` to exit any mode.
+Press `ESC` to exit any mode. (Typing this an indefinite amount of times does no harm)
 
 Type `i` to go into editing mode.
 
@@ -16,16 +35,11 @@ Copy by pressing `CNTRL+C`
 
 Paste by pressing `CNTRL+v`
 
-```
-cd <path/to/directory> # makes the terminal start from a desired path
-export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so # any process within a new shell now associates `LD_PRELOAD` with `/usr/lib/x86_64-linux-gnu/libGLEW.so`
-```
-
 Press `Esc` to exit editable mode
 Saving changes: Press`Esc`. Type `:w` to save any changes you made to the file
 Exit a file: Press `Esc`. Type `:q` to exit the file (Type `:q!` to force exit the file if vim is not playing nice)
 
-Indenting multiple lines. Type `v` to got into hilight mode. Move the hightlight with arrows. indent lines that are highlightes (google "vim indent multiple lines"), 
+Indenting multiple lines. Type `v` to go into hilight mode. Move the hightlight with arrows. indent lines that are highlightes (google "vim indent multiple lines"), 
 
 ## Git
 ### Copying someones elses folder (repository)
