@@ -2,14 +2,15 @@
 Instead of having to google common commands, I am putting them here for faster reference anything inside of the < > symbols os to be changed by the user for their specific use case
 
 ## Git
-### Copying someones files
+### Copying someones elses folder (repository)
 Find the package you want to install online
 
 ```
 git clone <github URL>
 ```
 
-### After making changes to your local repository
+### After making changes to your local repository rubn th following commands
+```
 git status
 git pull
 git add --all 
@@ -17,6 +18,7 @@ git status
 git commit -m "comment saying what you changed"
 git stash
 git push
+```
 
 ## Go to the directory of the package you want to install
 ```
