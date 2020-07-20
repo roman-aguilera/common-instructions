@@ -30,7 +30,9 @@ vim <filename.filetype>  # essentially you are entering the file named `filename
 ```
 Press `ESC` to exit any mode. (Typing this an indefinite amount of times does no harm)
 
-Type `i` to go into editing mode.
+Undo most recent changes: Make sure to exit current mode by pressing `Esc`. Press `u`.
+
+Editing mode: Press `i`.
 
 Highlighting text: To highlight text, ensure you first exit any mode that you are currently in by pressing `ESC`. Highlight a text by holding `CNTRL` and clicking on the terminal once (maybe need to click twice)
 
@@ -42,7 +44,7 @@ Press `Esc` to exit editable mode
 Saving changes: Press`Esc`. Type `:w` to save any changes you made to the file
 Exit a file: Press `Esc`. Type `:q` to exit the file (Type `:q!` to force exit the file if vim is not playing nice)
 
-Indenting multiple lines. Type `v` to go into visual mode. Hightlight text by moving up/down with arrow keys. Indent lines that are highlighted by typing `:s/^/<text_to_appear_at_the_beginning_of_each_line>` 
+Indenting multiple lines: Type `v` to go into visual mode. Hightlight text by moving up/down with arrow keys. Indent lines that are highlighted by typing `:s/^/<text_to_appear_at_the_beginning_of_each_line>` 
 
 ## Git
 ### Downloading someones elses git repository (i.e. online folder of their code) into your machine 
