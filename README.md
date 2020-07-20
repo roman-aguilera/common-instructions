@@ -42,7 +42,7 @@ Press `Esc` to exit editable mode
 Saving changes: Press`Esc`. Type `:w` to save any changes you made to the file
 Exit a file: Press `Esc`. Type `:q` to exit the file (Type `:q!` to force exit the file if vim is not playing nice)
 
-Indenting multiple lines. Type `v` to go into hilight mode. Move the hightlight with arrows. indent lines that are highlightes (google "vim indent multiple lines"), 
+Indenting multiple lines. Type `v` to go into visual mode. Hightlight text by moving up/down with arrow keys. Indent lines that are highlighted by typing `:s/^/<text_to_appear_at_the_beginning_of_each_line>` 
 
 ## Git
 ### Downloading someones elses git repository (i.e. online folder of their code) into your machine 
