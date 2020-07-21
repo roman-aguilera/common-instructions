@@ -4,6 +4,9 @@ Instead of having to google common commands, I am putting them here for faster r
 Anyhhing to the right of a `#` is a comment.
 
 ## Installing Ubuntu
+root (/) :8 GB  for 8Gb RAM
+efi(mount as EFI): 260 (so that it can be 256)
+swap(mount as swap): 
 
 ## Command-Line (For linux)
 Entering the terminal (i.e. command-line, i.e. shell): Press the `HOME` button on your keyboard. Type in `cmd`. Click on `Terminal`. The directory (folder) that you are currently in should be displayed in txt on the leftmost side.
