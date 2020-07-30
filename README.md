@@ -49,6 +49,9 @@ Exit a file: Press `Esc`. Type `:q` to exit the file (Type `:q!` to force exit t
 
 Indenting multiple lines: Type `v` to go into visual mode. Hightlight text by moving up/down/left/right with arrow keys. Indent lines that are highlighted by typing `:s/^/<text_to_appear_at_the_beginning_of_each_line>` 
 
+Going back and forth between editing a program and running it
+https://stackoverflow.com/a/1258318/14024439
+
 ## Git
 ### Downloading someones elses git repository (i.e. online folder of their code) into your machine 
 Find the Github repository you want to copy
