@@ -159,34 +159,36 @@ pip freeze # show list of installed packages
 
 pip freeze | grep 'keyword' #List out all packages that have a specified keyword within their name
 ```
-## Searching within your current directory
-### Searching for a specific term in your directory
+## Other usefull comman-line commands 
+
+### Searching within your current directory
+#### Searching for a specific term in your directory
 
 ```
 grep -r 'YOUR_SEARCH_TERM' .  # search all files (within your current directory and all sub-directories in it) for words that contain 'YOUR_SEARCH_TERM'
 grep -r 'YOUR_SEARCH_TERM' </path/to/directory>  # search all files (within your </path/to/directory> directory and all sub-directories in it) for words that contain 'YOUR_SEARCH_TERM'
 ```
 
-### Seaching for a specific file in your current directory
+#### Seaching for a specific file in your current directory
 
 ```
 find . -name testfile.txt #looks for any files named `testfile.txt` that are contained within your current directory and its sub-directories
 find </path/to/directory> -name testfile.txt #looks for any files named `testfile.txt` that are contained within </path/to/directory> directory and its sub-directories
 ```
 
-## Viewing the contents of a file 
+### Viewing the contents of a file 
 ```
 vim <filename.filetype> # one way
 cat <filename.filetype> #another way
 ```
 
-## Transferring files between a local and remote machine)
+### Transferring files between a local and remote machine)
 Copying the file "foobar.txt" from a remote host to the local host
 ```
 scp your_username@remotehost.edu:foobar.txt /some/local/directory
 ```
 
-Copying the file "foobar.txt" from the local host to a remote host
+Example: Copying the file "foobar.txt" from the local host to a remote host
 ```
 scp foobar.txt your_username@remotehost.edu:/some/remote/directory
 ```
@@ -196,7 +198,7 @@ Other scp commands (for entire directories and other intricacies) can be found a
 http://www.hypexr.org/linux_scp_help.php
 ```
 
-## Customizing your computer so that you have specific command-line commands automatically run when you start a new terminal (i.e. black screen where you code)
+### Customizing your computer so that you have specific command-line commands automatically run when you start a new terminal (i.e. black screen where you code)
 Go to your bash file. this should be found in your home directoory and is named `.bashrc`
 ```
 cd ~ # go to your home directory
@@ -216,7 +218,7 @@ export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so # any process within a ne
 Press `Esc` to exit editable mode
 Type `:w` to save the changes, Type `:q` to exit the file, Type `:q!` to exit the file if vim is not playing nice
 
-Now the these commands will run every time you open up a new command-line terminnal
+Now, the the commands you typed into the `.bashrc` file will run every time you open up a new terminnal. Check that this is the case by opening up a new terminal (Press `HomeButton`. Type `cmd`. Press `Enter`.)
 
 ## ROS
 If you ever obtain the error "ERROR: Unable to communicate with master!", you need to open up a separate terminal and run:
