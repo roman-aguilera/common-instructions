@@ -87,7 +87,7 @@ Now, the "contributor" can download the owners code by going to the repository, 
 
 ``` 
 git clone <github URL> # generic command
-git clone https://github.com/roman-aguilera/common-instructions.git # pratical example 
+git clone https://github.com/roman-aguilera/common-instructions.git #  example 
 ```
 
 
