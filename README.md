@@ -30,20 +30,17 @@ Press the `UP` or `DOWN` arrows to automatically retype a previously typed comma
 
 I personally prefer Ubuntu becuase:
 
-(i) it is well established 
+1. it is well established 
 
-(ii) it is A LOT more programmer-friendly than Windows, so if you want to make your own website from scratch or build robots that do backflips, Ubuntu saves a lot of headache (take my word for it) 
+2. it is A LOT more programmer-friendly than Windows, so if you want to make your own website from scratch or build robots that do backflips, Ubuntu saves a lot of headache (take my word for it) 
 
-(iii) it has a stronger community for supporting programming projects 
+3. it has a stronger community for supporting programming projects 
 
-(iv) it is open-source and built off open source Linux, meaning that it practically lowers the barrier-to-entry to opportunities in computing for marginalized communities. 
+4. it is open-source and built off open source Linux, meaning that it practically lowers the barrier-to-entry to opportunities in computing for marginalized communities. 
 
-These days, pretty much everything you can do in Windows, you can do in Ubuntu. It used to be the case that PC gaming and Adobe photoshop were unsupported. But now there is support for this now. Here are some references.
-https://www.youtube.com/watch?v=6T_-HMkgxt0
-https://www.linuxmadesimple.info/2020/03/how-to-install-league-of-legends-on.html
-https://linuxhint.com/install_adobe_photoshop_linux/
+5. These days, pretty much everything you can do in Windows, you can do in Ubuntu. It used to be the case that PC gaming and Adobe photoshop were unsupported. But now there is support for this now. Here are some references. https://www.youtube.com/watch?v=6T_-HMkgxt0       https://www.linuxmadesimple.info/2020/03/how-to-install-league-of-legends-on.html         https://linuxhint.com/install_adobe_photoshop_linux/
 
-If you still want to use Windows, this link introduces the command-line for Microsoft fairly well:
+If you still want to use Windows, I dont blame you. It took me a while to convince myself that Ubuntu was better for myself. This link introduces the command-line for Microsoft fairly well:
 https://kb.intermedia.net/Article/976#:~:text=The%20command%20prompt%20is%20the,on%20icons%20with%20your%20mouse).&text=To%20open%20the%20command%20prompt,%2B%20R%20on%20your%20keyboard).
 
 The coomand-line for Windows is called an MS-DOS command prompt (for reference, but not important for immediate application, check here https://en.wikipedia.org/wiki/MS-DOS ) .
