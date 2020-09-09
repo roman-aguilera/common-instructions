@@ -80,6 +80,8 @@ The owner needs to go to webpage of repository where they want to add a contribu
 
 The contributor needs to go to the webpage that they are being asked to contribute to (e.g. `https://github.com/roman-aguilera/common-instructions`), but with `/invitations` appended at the end. For example ` https://github.com/roman-aguilera/common-instructions/invitations`. The contributor accepts the invitation there.
 
+Reference: `https://stackoverflow.com/a/63052608/14024439`
+
 ## Python
 #### Interpreter
 ```
