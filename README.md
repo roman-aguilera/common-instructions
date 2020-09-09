@@ -77,7 +77,7 @@ git push
 Say you are working on your code and it includes a lot of folders (and subfolders), but you are in one of the subfolders and forgot where exactly you originally put your repository when you downloaded (i.e. cloned or forked) it. Enter the following command
 
 ```
-git rev-parse --show-toplevel)
+git rev-parse --show-toplevel
 ```
 
 #### Inviting someine else to make changes on your repository
