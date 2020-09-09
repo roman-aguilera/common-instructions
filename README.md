@@ -176,6 +176,7 @@ Go to your bash file. this should be found in your home directoory and is named 
 cd ~ # go to your home directory
 vim .bashrc  # enter the file named `bashrc` for editing (creates a new file if it doesn't already exist)
 ```
+Should be located under ```conda initialize```
 
 Scroll to the very end of the .bashrc file 
 Type `i` to be able to edit the file.
