@@ -85,8 +85,10 @@ Reference: `https://stackoverflow.com/a/63052608/14024439`
 
 Now, the "contributor" can download the owners code by going to the repository, clicking on the green button that says `code`, opying that url (e.g. `https://github.com/roman-aguilera/common-instructions.git`), downloading that file by running the command in the command line:
 
-``` git clone <github URL> # generic command
-git clone https://github.com/roman-aguilera/common-instructions.git # pratical example ```
+``` 
+git clone <github URL> # generic command
+git clone https://github.com/roman-aguilera/common-instructions.git # pratical example 
+```
 
 
 ## Python
