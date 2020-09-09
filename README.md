@@ -53,7 +53,8 @@ Going back and forth between editing a program and running it
 https://stackoverflow.com/a/1258318/14024439
 
 ## GitHub
-### Downloading someones elses git repository (i.e. online folder of their code) into your machine 
+
+#### Downloading someones elses git repository (i.e. online folder of their code) into your machine 
 Find the Github repository you want to copy
 Fork (copy) their repository into your github repository. This places a copy of their code into your Github profile which you now have full control over! (This is important becuase you cant commit changes to someone else repository unless they give you permission) (Google "how to fork a repository")
 Go to your github, copy the gihub URL of your copy of their repository (URL should end in .git)
@@ -61,7 +62,7 @@ Go to your github, copy the gihub URL of your copy of their repository (URL shou
 git clone <github URL> # github URL must come from your personal github repository (the URL can be pasted by pressing `CNTRL+V`)
 ```
 
-### Saving changes from your local repository to your github repository
+#### Saving changes from your local repository to your github repository
 ```
 git status
 git pull
@@ -72,7 +73,7 @@ git stash
 git push
 ```
 
-### Inviting someine else to make changes on your repository
+#### Inviting someine else to make changes on your repository
 
 An "owner" in GitHub is someone that created a repository. A "contributor" in GitHub is someone that can make changes to an owner's repository.
 
@@ -81,6 +82,12 @@ The owner needs to go to webpage of repository where they want to add a contribu
 The contributor needs to go to the webpage that they are being asked to contribute to (e.g. `https://github.com/roman-aguilera/common-instructions`), but with `/invitations` appended at the end. For example ` https://github.com/roman-aguilera/common-instructions/invitations`. The contributor accepts the invitation there.
 
 Reference: `https://stackoverflow.com/a/63052608/14024439`
+
+Now, the "contributor" can download the owners code by going to the repository, clicking on the green button that says `code`, opying that url (e.g. `https://github.com/roman-aguilera/common-instructions.git`), downloading that file by running the command in the command line:
+
+``` git clone <github URL> # generic command
+git clone https://github.com/roman-aguilera/common-instructions.git # pratical example ```
+
 
 ## Python
 #### Interpreter
