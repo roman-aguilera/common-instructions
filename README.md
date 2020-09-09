@@ -196,19 +196,21 @@ Other scp commands (for entire directories and other intricacies) can be found a
 http://www.hypexr.org/linux_scp_help.php
 ```
 
-## Getting desired command-line commands to automatically run when you start a new terminal
+## Customizing your computer so that you have specific command-line commands automatically run when you start a new terminal (i.e. black screen where you code)
 Go to your bash file. this should be found in your home directoory and is named `.bashrc`
 ```
 cd ~ # go to your home directory
-vim .bashrc  # enter the file named `bashrc` for editing (creates a new file if it doesn't already exist)
+vim .bashrc  # enter into the file named `.bashrc` for editing (creates a new file if it doesn't already exist)
 ```
 Should be located under ```conda initialize```
 
 Scroll to the very end of the .bashrc file 
 Type `i` to be able to edit the file.
-Copy and Paste the following (example lines) into the final line of the `.bashrc` file (to paste, use `cntrl+v`)
+Type in whatever command you want to run. Press `Esc`. Press `:w`, press, `Enter` to save the changes to that file. Press `:q`, press `Enter`, to exit the file and go back to the command line.
+
+Refer below to to the following example commands that you can add to the end of your `.bashrc` file. (Note: To copy text within the terminal, highlight the text with your mouse, press `shift+cntrl+c`. To paste text within the terminal, use `shift+cntrl+v`.)
 ```
-cd <path/to/directory> # makes the terminal start from a desired path
+cd <your/specific/path/to/desired/directory> # makes the terminal start from a desired path
 export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so # any process within a new shell now associates `LD_PRELOAD` with `/usr/lib/x86_64-linux-gnu/libGLEW.so`
 ```
 Press `Esc` to exit editable mode
