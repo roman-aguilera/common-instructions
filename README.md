@@ -133,8 +133,8 @@ importlib.reload(previously_imported_module) # update a module within the python
 
 ```
 
-### Package Management
-#### Installing a python module (i.e. software package) from source (source lets you modify the module)
+#### Package Management
+##### Installing a python module (i.e. software package) from source (source lets you modify the module)
 
 ```
 #fork a repository first (google "how to fork a git repository")
@@ -152,7 +152,7 @@ cd <name_of_folder_that_was_cloned> # go into folder you just downloaded
 pip install -e . # Install the package using pip
 ```
 
-## Checking which python modules (software packages) are installed in your current python environment
+#### Checking which python modules (software packages) are installed in your current python environment
 
 ```
 pip freeze # show list of installed packages
