@@ -62,7 +62,7 @@ Go to your github, copy the gihub URL of your copy of their repository (URL shou
 git clone <github URL> # github URL must come from your personal github repository (the URL can be pasted by pressing `CNTRL+V`)
 ```
 
-#### Saving changes from your local repository to your github repository
+#### Saving changes from your local (computer's) repository to your github (online) repository
 ```
 git status
 git pull
@@ -71,6 +71,13 @@ git status
 git commit -m "comment saying what you changed"
 git stash
 git push
+```
+
+#### Finding the top level directory of your local (computer's) repository
+Say you are working on your code and it includes a lot of folders (and subfolders), but you are in one of the subfolders and forgot where exactly you originally put your repository when you downloaded (i.e. cloned or forked) it. Enter the following command
+
+```
+git rev-parse --show-toplevel)
 ```
 
 #### Inviting someine else to make changes on your repository
