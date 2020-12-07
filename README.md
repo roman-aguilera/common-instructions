@@ -102,7 +102,9 @@ git push
 ```
 
 #### Pulling changes in a team repository
+```
 git pull origin main
+```
 
 #### Finding the top level directory of your local (computer's) repository
 Say you are working on your code and it includes a lot of folders (and subfolders), but you are in one of the subfolders and forgot where exactly you originally put your repository when you downloaded (i.e. cloned or forked) it. Enter the following command
